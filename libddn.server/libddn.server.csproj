@@ -41,6 +41,13 @@
   <ItemGroup>
     <Compile Include="CohortNode.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Puppeteer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\libddn.csproj">
+      <Project>{EEA8CBE9-90F7-4411-A7A5-A702C902D02F}</Project>
+      <Name>libddn</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
